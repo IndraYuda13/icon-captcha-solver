@@ -1,0 +1,16 @@
+{
+  "server": {
+    "host": "127.0.0.1",
+    "port": 5073
+  },
+  "llm": {
+    "base_url": "http://127.0.0.1:20128/v1",
+    "public_base_url": "https://9router.indrayuda.my.id/v1",
+    "api_key": "YOUR_9ROUTER_API_KEY",
+    "primary_model": "ag/gemini-3.7-flash-high",
+    "fallback_model": "gemini/gemini-3.6-flash",
+    "timeout_seconds": 15,
+    "max_tokens": 500
+  },
+  "dataset_collection": true
+}
